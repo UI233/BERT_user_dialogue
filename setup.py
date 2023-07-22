@@ -13,7 +13,7 @@ setup(
         "jieba",
         "tqdm"
     ],
-    # packages=find_packages(where="bert_summarizer"),
-    # package_dir={"": "bert_summarizer"},
+    packages=find_packages(where="./"),
+    package_dir={"bert_summarizer": "bert_summarizer"},
     include_package_data=True
 )
